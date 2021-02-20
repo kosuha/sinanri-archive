@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+._myProfile, ._myPost, ._myData {
+  flex-grow: 1;
+  flex-basis: 300px;
+  margin: 20px;
+}
+
+._myProfile {
+  display: flex;
+  flex-direction: column;
+}
+
+._myProfile_top {
+  display: flex;
+}
+
+._myProfile_top a {
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  color: rgba(100, 100, 100, 0.5);
+  display: inline;
+  height: 20px;
+  padding: 1px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.myProfile {
+  border: 1px solid rgba(100, 100, 100, 0.5);
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.myPost div, .myData div {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+}
+
+.myData div .houseName {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.myData div .rent {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.myData div .review {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.myData div .created {
+  font-weight: 300;
+  font-size: 8px;
+}
+
+.myPost div .postContent {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.myPost div .postedTime {
+  font-size: 8px;
+  font-weight: 300;
+}
+
+.del, .del_ {
+  font-size: 8px;
+  font-weight: 300;
+}

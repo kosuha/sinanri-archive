@@ -1,0 +1,21 @@
+.mainWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main article {
+  border: 1px solid rgba(100, 100, 100, 0.5);
+  padding: 20px;
+  margin: 5px;
+  width: 300px;
+}
+
+main article h2 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+main article p {
+  font-size: 24px;
+  font-weight: 400;
+}
